@@ -42,6 +42,14 @@
    開始掛機
 
 ### 程式碼
+相關參數設定
+如果閱讀有中斷，續讀時請
+
+`const init_words=0`
+
+將0更改為任意數字
+
+例:`const init_words=487`
 
 ```javascript
 const min=1.6
