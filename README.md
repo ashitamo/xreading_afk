@@ -25,7 +25,7 @@
    確保你有訂選 ![](assets/20220107_193855_image.png)
    在閱讀的頁面，點擊圖示使  ![](assets/20220107_193925_image.png) 變成 ![](assets/20220107_193936_image.png)
    在按下右鍵點選**檢查**按鈕 ![](assets/20220107_195803_image.png)
-2. 輸入腳本[程式碼](https://)
+2. 輸入腳本[程式碼](https://github.com/ashitamo/xreading_afk#%E7%A8%8B%E5%BC%8F%E7%A2%BC)
 
    按下主控台(consloe)
 
