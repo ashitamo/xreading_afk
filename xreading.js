@@ -9,25 +9,31 @@ function getnowpagecounter(){
     }
 }
 function getneedreadtime(last,now){
+    if (last==now) return 1
     return (now-last)/(Math.floor(Math.random()*(max-min+1))+min);
 }
 function interval(word){
     setTimeout(() => {
+        word=getnowpagecounter()-word
         let btn=document.getElementsByClassName("btn btn-primary next-slide pr-4 pl-4")[0]
         if (btn.getAttribute('style')==''){
-            word=getnowpagecounter()-word
+            btn.click()
             setTimeout(() => {
                 interval(word)
-            }, 1000);
+            }, 2000);
         }
         else document.getElementsByClassName('btn btn-primary close-book pr-4 pl-4')[0].click();
-    },getneedreadtime(word,getnowpagecounter())*1000)
+    },getneedreadtime(word,getnowpagecounter())*1000) 
+    console.log('last word: ',word)
+    console.log('time: ',getneedreadtime(word,getnowpagecounter())*1000)
 }
 function main(){
     let words=init_words
     setInterval(() => {
         document.getElementsByClassName('btn btn-default continue-reading')[0].click()
+        console.log('keep continue')
     },60000);
     interval(words)
+    console.log('im working')
 }
 main()
