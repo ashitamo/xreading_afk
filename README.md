@@ -68,7 +68,7 @@ function getneedreadtime(last,now){
 }
 function interval(word){
     setTimeout(() => {
-        let btn=document.getElementsByClassName("btn btn-primary next-slide pr-4 pl-4")[0].getAttribute('style')
+        let btn=document.getElementsByClassName("btn btn-primary next-slide pr-4 pl-4")[0]
         if (btn.getAttribute('style')==''){
             word=getnowpagecounter()-word
             setTimeout(() => {
