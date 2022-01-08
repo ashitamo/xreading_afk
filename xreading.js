@@ -20,6 +20,7 @@ function interval(word){
                 interval(word)
             }, 1000);
         }
+        else document.getElementsByClassName('btn btn-primary close-book pr-4 pl-4')[0].click();
     },getneedreadtime(word,getnowpagecounter())*1000)
 }
 function main(){
