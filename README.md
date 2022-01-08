@@ -48,7 +48,7 @@
 
 `const init_words=0`
 
-將0更改為任意數字
+將0更改為上一頁的字數
 
 例:`const init_words=487`
 
