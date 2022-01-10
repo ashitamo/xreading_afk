@@ -53,6 +53,10 @@
 例:`const init_words=487`
 
 ```javascript
+const min=1.6
+const max=2.5
+const init_words=0
+//words/s
 function getnowpagecounter(){
     let divs=document.getElementsByClassName("show-word-count fixed-top")[0].children[0].children
     for (var i of divs){
@@ -65,7 +69,7 @@ function getneedreadtime(last,now){
 }
 function interval(word){
     setTimeout(() => {
-        word=getnowpagecounter()-word
+        word=getnowpagecounter()
         let btn=document.getElementsByClassName("btn btn-primary next-slide pr-4 pl-4")[0]
         if (btn.getAttribute('style')==''){
             btn.click()

@@ -14,7 +14,7 @@ function getneedreadtime(last,now){
 }
 function interval(word){
     setTimeout(() => {
-        word=getnowpagecounter()-word
+        word=getnowpagecounter()
         let btn=document.getElementsByClassName("btn btn-primary next-slide pr-4 pl-4")[0]
         if (btn.getAttribute('style')==''){
             btn.click()
