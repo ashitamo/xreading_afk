@@ -36,7 +36,7 @@ function main(){
             console.log('keep continue')
         }
         else console.log('didnt show')
-    },1000);
+    },500);
     interval(words)
     console.log('im working')
 }
