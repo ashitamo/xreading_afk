@@ -81,15 +81,18 @@ function interval(word){
         else document.getElementsByClassName('btn btn-primary close-book pr-4 pl-4')[0].click();
     },getneedreadtime(word,getnowpagecounter())*1000) 
     console.log('last word: ',word)
-    console.log('readword: ',getneedreadtime()-word)
+    console.log('readword: ',getnowpagecounter()-word)
     console.log('time: ',getneedreadtime(word,getnowpagecounter())*1000)
 }
 function main(){
     let words=init_words
     setInterval(() => {
-        document.getElementsByClassName('btn btn-default continue-reading')[0].click()
-        console.log('keep continue')
-    },30000);
+        if (document.getElementById('popupidletimeout').className=='modal fade show'){
+            document.getElementsByClassName('btn btn-default continue-reading')[0].click()
+            console.log('keep continue')
+        }
+        else console.log('didnt show')
+    },1000);
     interval(words)
     console.log('im working')
 }
