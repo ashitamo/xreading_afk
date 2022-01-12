@@ -33,7 +33,7 @@ function main(){
     setInterval(() => {
         document.getElementsByClassName('btn btn-default continue-reading')[0].click()
         console.log('keep continue')
-    },60000);
+    },30000);
     interval(words)
     console.log('im working')
 }

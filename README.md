@@ -81,6 +81,7 @@ function interval(word){
         else document.getElementsByClassName('btn btn-primary close-book pr-4 pl-4')[0].click();
     },getneedreadtime(word,getnowpagecounter())*1000) 
     console.log('last word: ',word)
+    console.log('readword: ',getneedreadtime()-word)
     console.log('time: ',getneedreadtime(word,getnowpagecounter())*1000)
 }
 function main(){
@@ -88,7 +89,7 @@ function main(){
     setInterval(() => {
         document.getElementsByClassName('btn btn-default continue-reading')[0].click()
         console.log('keep continue')
-    },60000);
+    },30000);
     interval(words)
     console.log('im working')
 }
