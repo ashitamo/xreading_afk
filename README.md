@@ -9,7 +9,7 @@
 
 ### 使用方式
 
-1. 前置動作
+### 1. 前置動作
 
    為了使用腳本，我們需要打開chrome的開發者介面，因xreading鎖定F12鍵所以以下提供三種開啟方法
 
@@ -31,7 +31,7 @@
    
    在按下右鍵點選**檢查**按鈕  ![](assets/20220107_195803_image.png)
    
-2. 輸入腳本[程式碼](https://github.com/ashitamo/xreading_afk#%E7%A8%8B%E5%BC%8F%E7%A2%BC)
+### 2. 輸入腳本[程式碼](https://github.com/ashitamo/xreading_afk#%E7%A8%8B%E5%BC%8F%E7%A2%BC)
 
    按下主控台(console)
 
