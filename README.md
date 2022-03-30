@@ -21,7 +21,7 @@
 
    在開始閱讀之前先按下**F12**，在進入閱讀介面
 
-   ### 第二種
+   ### 第三種
 
    安裝[Allow Right-Click](https://chrome.google.com/webstore/detail/allow-right-click/hnafhkjheookmokbkpnfpmemlppjdgoihttps:/)
    
