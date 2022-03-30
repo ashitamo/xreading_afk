@@ -33,7 +33,7 @@
    
 2. 輸入腳本[程式碼](https://github.com/ashitamo/xreading_afk#%E7%A8%8B%E5%BC%8F%E7%A2%BC)
 
-   按下主控台(consloe)
+   按下主控台(console)
 
    ![](assets/20220107_200808_image.png)
 
